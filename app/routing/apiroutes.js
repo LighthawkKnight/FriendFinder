@@ -5,12 +5,12 @@ const questions = 10;
 module.exports = (app) => {
 
     // Friends API Link
-    app.get("api/friends", (req, res) => {
+    app.get("/api/friends", (req, res) => {
         res.json(friendsData);
     });
 
     // Submit button
-    app.post("api/friends", (req, res) => {
+    app.post("/api/friends", (req, res) => {
         // Takes user data from survey.html in req        
         var user = req.body;
         var rating = [];

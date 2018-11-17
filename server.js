@@ -1,5 +1,4 @@
 var express = require("express");
-var path = require("path");
 
 // Express Config - Creation
 var app = express();
