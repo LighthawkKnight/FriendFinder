@@ -1,5 +1,6 @@
 // File for API routing
 var friendsData = require("../data/friends");
+var path = require("path");
 const questions = 10;
 
 module.exports = (app) => {
