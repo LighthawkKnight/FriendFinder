@@ -5,9 +5,9 @@ const questions = 10;
 module.exports = (app) => {
 
     // Friends API Link
-    app.get("api/friends"), (req, res) => {
+    app.get("api/friends", (req, res) => {
         res.json(friendsData);
-    }
+    });
 
     // Submit button
     app.post("api/friends", (req, res) => {
@@ -37,5 +37,5 @@ module.exports = (app) => {
         friendsData.push(user);
         // Response to send back to page
         res.json(friendsData[bestIndex]);
-    })
-}
+    });
+};
