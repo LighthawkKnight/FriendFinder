@@ -1,9 +1,8 @@
 // File for API routing
 var friendsData = require("../data/friends");
-var path = require("path");
 const questions = 10;
 
-module.exports = (app) => {
+module.exports = function(app) {
 
     // Friends API Link
     app.get("/api/friends", (req, res) => {
