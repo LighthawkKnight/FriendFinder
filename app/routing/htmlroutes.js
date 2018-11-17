@@ -1,4 +1,4 @@
-// File for HTML GET requests for routes
+// File for HTML requests for routes
 
 var path = require("path");
 

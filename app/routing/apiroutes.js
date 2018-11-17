@@ -1,3 +1,4 @@
+// File for API routing
 var friendsData = require("../data/friends");
 const questions = 10;
 
