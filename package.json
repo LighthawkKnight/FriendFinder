@@ -4,13 +4,13 @@
     "description": "",
     "main": "server.js",
     "dependencies": {
-      "express": "^4.16.3"
+      "express": "^4.16.3",
+      "path": "^0.12.7"
     },
     "devDependencies": {},
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js",
-      "watch": "nodemon server.js"
+      "start": "node server.js"
     },
     "author": "Jeff Daquioag",
     "license": "ISC"
